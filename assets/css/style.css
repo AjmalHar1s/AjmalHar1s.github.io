@@ -31,7 +31,7 @@ p {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
-.back-to-top {
+/* .back-to-top {
   position: fixed;
   visibility: hidden;
   opacity: 0;
@@ -59,7 +59,7 @@ p {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
-}
+} */
 
 /*--------------------------------------------------------------
 # Preloader
