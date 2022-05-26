@@ -1303,3 +1303,10 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+
+.contact-alternate {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
