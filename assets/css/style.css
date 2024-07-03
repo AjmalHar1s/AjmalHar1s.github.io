@@ -409,6 +409,38 @@ section {
   left: calc(50% - 20px);
 }
 
+.section-title h3 {
+  font-size: 24px;
+  font-weight: 500;
+  /* text-transform: uppercase; */
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #235642;
+}
+
+.section-title h3::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title h3::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #daa520;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
 .section-title p {
   margin-bottom: 0;
 }
@@ -1446,4 +1478,19 @@ div.marquee > a > img {
 .swiper-container .swiper-slide img{
   border-radius: 10px;
   border: 5px solid #235642;
+}
+
+@media screen and (max-width: 500px) {
+  .default-content-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    width: 100%;
+    min-height: 100vh;
+  }
 }
