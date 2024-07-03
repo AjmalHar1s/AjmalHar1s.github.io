@@ -1436,3 +1436,14 @@ div.marquee > a > img {
     transform: translate3d(-100%, 0, 0);
   }
 }
+
+.swiper-container {
+  /* background-color: #235642; */
+  /* border: 5px solid #235642; */
+  border-radius: 10px;
+}
+
+.swiper-container .swiper-slide img{
+  border-radius: 10px;
+  border: 5px solid #235642;
+}
