@@ -1388,6 +1388,7 @@ section {
 
 div.marquee > a > img {
   height: 120px;
+  object-fit: contain;
 }
 
 .logoMarqueeSection > div > div {
