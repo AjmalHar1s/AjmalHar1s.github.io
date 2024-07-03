@@ -441,7 +441,7 @@ section {
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
-/* .facts .count-box {
+.facts .count-box {
   padding: 30px 30px 25px 30px;
   margin-top: 30px;
   width: 100%;
@@ -479,7 +479,7 @@ section {
   font-family: "Raleway", sans-serif;
 
   font-size: 14px;
-} */
+}
 
 /*--------------------------------------------------------------
 # Akills
@@ -803,7 +803,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-/* .services .icon-box {
+.services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
@@ -931,7 +931,7 @@ section {
 
 .services .iconbox-teal:hover .icon path {
   fill: #11dbcf;
-} */
+}
 
 /*--------------------------------------------------------------
 # Testimonials
