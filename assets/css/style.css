@@ -1494,3 +1494,12 @@ div.marquee > a > img {
     min-height: 100vh;
   }
 }
+
+.portfolio-designs-video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.portfolio-wrap-design {
+  border-radius: 10px;
+}
